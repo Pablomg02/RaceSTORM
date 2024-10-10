@@ -4,23 +4,23 @@ from racesim import RaceSim
 import numpy as np
 import matplotlib.pyplot as plt
 
-soft = Tire(78, 0.12, 30, "soft")
-medium = Tire(80, 0.08, 45, "medium")
-hard = Tire(81.3, 0.03, 60, "hard")
+soft = Tire(78, 0.2, 20, "soft")
+medium = Tire(79.6, 0.09, 37, "medium")
+hard = Tire(80.8, 0.04, 50, "hard")
 
-laps = 61
+laps = 72
 
 race = RaceSim(laps)
 
-results = race.optimize(soft, [soft, medium, hard])
+results = race.optimize(soft, [soft, medium, hard], 2)
 
-print(f"Optimal pit strategy is at lap {results[0]} with a time of {results[1]}. Tire used: {results[2]}")
-
-
+#print(results)
 
 
 
+#print(race.simulate(soft, [22, 80], [medium, soft], print_laps=True))
 
+"""
 
 x = np.arange(1, laps+1)
 y1 = [race.simulate(soft, i, hard) for i in x]
@@ -49,3 +49,4 @@ plt.legend()
 plt.show()
 
 
+"""
