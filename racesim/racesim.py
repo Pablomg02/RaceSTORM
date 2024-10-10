@@ -49,11 +49,6 @@ class RaceSim:
 
 
 
-        """
-        Para evitar esta repeticion, lo que puedo hacer es crear una funcion que me devuelva todas las combinaciones posibles de pit stops
-        y lo mismo para neumaticos, y luego iterar sobre esas combinaciones.
-        """
-
         pit_lap_options = list(itertools.combinations(range(1, self.laps+1), pit_stops))
         tire_pit_options = list(itertools.product(tires_available, repeat=pit_stops,))
 
@@ -65,41 +60,4 @@ class RaceSim:
                     optimal_time = sim
                     optimal_tire_pit = tire_pit
 
-        return optimal_pit, optimal_time, optimal_tire_pit
-"""
-        if pit_stops == 1:
-            for tire_pit in tires_available:
-                for i in range(1, self.laps+1):
-                    sim = self.simulate(tire0, [i], [tire_pit])
-                    if sim < optimal_time:
-                        optimal_pit = [i]
-                        optimal_time = sim
-                        optimal_tire_pit = [tire_pit]
-
-        elif pit_stops == 2:
-            for tire_pit1 in tires_available:
-                for tire_pit2 in tires_available:
-                    for i in range(1, self.laps+1):
-                        for j in range(i+1, self.laps+1):
-                            sim = self.simulate(tire0, [i, j], [tire_pit1, tire_pit2])
-                            if sim < optimal_time:
-                                optimal_pit = [i, j]
-                                optimal_time = sim
-                                optimal_tire_pit = [tire_pit1, tire_pit2]
-
-        
-        elif pit_stops == 3:
-            for tire_pit1 in tires_available:
-                for tire_pit2 in tires_available:
-                    for tire_pit3 in tires_available:
-                        for i in range(1, self.laps+1):
-                            for j in range(i+1, self.laps+1):
-                                for k in range(j+1, self.laps+1):
-                                    sim = self.simulate(tire0, [i, j, k], [tire_pit1, tire_pit2, tire_pit3])
-                                    if sim < optimal_time:
-                                        optimal_pit = [i, j, k]
-                                        optimal_time = sim
-                                        optimal_tire_pit = [tire_pit1, tire_pit2, tire_pit3]
-        
-        return optimal_pit, optimal_time, optimal_tire_pit
-"""
+        return optimal_pit, optimal_tire_pit, optimal_time

@@ -10,15 +10,19 @@ hard = Tire(80.8, 0.04, 50, "hard")
 
 laps = 72
 
+# Crear instancia de la clase RaceSim
 race = RaceSim(laps)
 
+# Ejemplo de simulacion de carrera
+print(race.simulate(soft, [22, 80], [medium, soft], print_laps=False))
+
+# Optimizacion de estrategia de carrera
 results = race.optimize(soft, [soft, medium, hard], 2)
-
-#print(results)
-
+print(results)
 
 
-#print(race.simulate(soft, [22, 80], [medium, soft], print_laps=True))
+
+
 
 """
 
