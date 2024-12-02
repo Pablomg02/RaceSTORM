@@ -1,4 +1,4 @@
-from tire import Tire
+from .tire import Tire
 import itertools
 from matplotlib import pyplot as plt
 
