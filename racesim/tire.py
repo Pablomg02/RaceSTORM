@@ -34,7 +34,7 @@ class Tire():
 
         if lap_stint > self.max_laps:
             is_done = True
-            time = self.time0 + ((self.max_laps)*self.degradation)*2
+            time = self.time0 + ((self.max_laps)*self.degradation)*3
 
         else:
             is_done = False
