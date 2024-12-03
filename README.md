@@ -1,11 +1,13 @@
 # Race Strategy Optimizer
-
-**Race Strategy Optimizer** is an open-source project under development, designed to determine the optimal strategies for a race **based on event probabilities**, including:
+***Race Strategy Optimizer*** is an open-source project under development that aims to provide a framework for teams and Motorsport enthusiasts to determine optimal race strategies, manage risks, and gain valuable insights by leveraging event probabilities and real data.
+Some of the key features are:
 
 - **Lap Time** influenced by tire degradation and driver consistency  
 - **Safety Car Events**  
 - **Weather Conditions**  
-- **Pit Stop Duration**  
+- **Pit Stop Duration**
+
+The main objective of the project is to provide a framework to teams and Motorsport lovers where obtaining **optimal strategies, risk management and other insights**.
 
 ## Features
 
@@ -23,9 +25,10 @@ The project leverages advanced techniques to ensure robust and computationally e
 
 - **Monte Carlo Analysis**  
 - **Heuristic Optimization**  
-- **Data Fitting and Modeling**  
+- **Data Fitting and Modeling**
+
 
 ## Get Involved  
 
-The project is still under active development. If you're interested in collaborating or using this project in your own work, feel free to reach out to me:  
+The project is still under active development. If you're interested in collaborating or adapting this project to your own needs, feel free to contact me:
 📧 **pablo.magarinos@outlook.com**
