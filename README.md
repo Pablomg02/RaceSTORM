@@ -1,5 +1,5 @@
 # ***RaceStORM*** 
-***RaceStORM (Race Strategy Optimization and Risk Management*** is an open-source project under development that aims to provide a framework for teams and Motorsport enthusiasts to determine optimal race strategies, manage risks, and gain valuable insights by leveraging event probabilities and real data.
+***RaceStORM (Race Strategy Optimization and Risk Management***) is an open-source project under development that aims to provide a framework for teams and Motorsport enthusiasts to determine optimal race strategies, manage risks, and gain valuable insights by leveraging event probabilities and real data.
 Some of the key features are:
 
 - **Lap Time** influenced by tire degradation and driver consistency  
