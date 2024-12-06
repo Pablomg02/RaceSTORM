@@ -4,7 +4,7 @@ setup(
     name="racestorm",
     author="Pablo Magarinos",
     author_email="pablo.magarinos@outlook.com",
-    version="0.0.1",
+    version="0.0.1.dev1",
     #packages=find_packages(),
     packages=["racestorm"],
     install_requires=[
@@ -12,4 +12,5 @@ setup(
         "matplotlib",
     ], 
     description="Race strategies and risk management for motorsport.",
+    license="GPLv3",
 )
