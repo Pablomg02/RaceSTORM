@@ -1,4 +1,4 @@
-from .tire import Tire
+from ..car import DeterministicTire as Tire
 import itertools
 from matplotlib import pyplot as plt
 
