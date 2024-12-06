@@ -1,5 +1,6 @@
 from racestorm.simulator import RaceSim
 
 
-from racestorm.car import Car
-from racestorm.car import DeterministicTire
+from .car import Car
+from .car import DeterministicTire
+from .car import StochasticTire

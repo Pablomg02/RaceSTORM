@@ -1,2 +1,3 @@
 from .car import Car
 from .tire import DeterministicTire
+from .tire import StochasticTire
