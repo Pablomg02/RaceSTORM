@@ -10,6 +10,7 @@ setup(
     install_requires=[
         "numpy",
         "matplotlib",
+        "scipy",
     ], 
     description="Race strategies and risk management for motorsport.",
     license="GPLv3",
