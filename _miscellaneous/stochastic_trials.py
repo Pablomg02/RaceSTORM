@@ -6,7 +6,7 @@ def laptime(lap, laptime0_average, laptime_stddev):
     """
     Devuelve el tiempo de una vuelta, sabiendo la vuelta del stint, siguiendo una distribucion normal
     """
-    return random.normalvariate(laptime0_average + 0.1*lap, laptime_stddev)
+    return random.normalvariate(laptime0_average + 0.1*lap, laptime_stddev+0.003*lap)
 
 def safety_car(prob):
     """
@@ -50,7 +50,7 @@ results = []
 
 for _ in range(1000):
     race = race_sim(laptime, vueltas, laptime_args=[laptime0_average, laptime_stddev])
-    if safety_car(0.07):
+    if safety_car(0.03):
         race += 20
     results.append(race)
 
