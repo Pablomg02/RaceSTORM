@@ -11,7 +11,7 @@ The main objective of the project is to provide a framework to teams and Motorsp
 
 > ⚠️ ***DEVELOPMENT NOTE*** ⚠️
 >
-> The project is still in a very early stage of development. If you like **programming, complex simulations, or motorsport engineering**, don't hesitate to contact me using the email below.
+> The project is still in a very early stage of development. If you like **programming, complex modelling and simulations, or motorsport engineering**, don't hesitate to contact me using the email below.
 
 ## Features
 
@@ -30,6 +30,7 @@ The project leverages advanced techniques to ensure robust and computationally e
 - **Monte Carlo Analysis**  
 - **Heuristic Optimization**  
 - **Data Fitting and Modeling**
+- **Deep Reinforcement Learning**
 
 
 ## Get Involved  
