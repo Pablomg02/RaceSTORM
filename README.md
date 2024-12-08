@@ -39,5 +39,5 @@ The project leverages advanced techniques to ensure robust and computationally e
 
 ## Get Involved  
 
-The project is under active development. If you're interested in collaborating or adapting this project to your own needs, just read the `CONTRIBUTING.MD` file and feel free to contact me:
+The project is under active development. If you're interested in collaborating or adapting this project to your own needs, just read the [`CONTRIBUTING.MD`](https://github.com/Pablomg02/RaceStORM/blob/main/CONTRIBUTING.md#contribution-guide) file and feel free to contact me:
 📧 **pablo.magarinos@outlook.com**
