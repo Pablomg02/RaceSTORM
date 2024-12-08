@@ -1,0 +1,4 @@
+First things to do:
+
+- Class contracts
+- Expected data types
