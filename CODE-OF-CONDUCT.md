@@ -29,7 +29,3 @@ As an open-source project, ***RaceStORM*** thrives on the idea that everyone can
 Anyone can contribute by following the principles outlined in this document. Contributions can range from coding to documenting, analyzing data, or simply sharing ideas. 
 
 For more information on how to get involved, please visit the [`CONTRIBUTING.md`](https://github.com/Pablomg02/RaceStORM/blob/main/CONTRIBUTING.md#contribution-guide) file.
-
----
-
-By participating in ***RaceStORM***, you help build a community of passionate motorsport enthusiasts and contribute to advancing the art and science of strategy.
